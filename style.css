@@ -288,6 +288,10 @@ body {
   box-shadow: var(--shadow-sm);
   transition: var(--transition);
   border: 1px solid var(--border);
+  /* Новые стили для центрирования и ограничения ширины */
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .card:hover {
@@ -382,6 +386,9 @@ body {
   transition: var(--transition);
   border-left: 4px solid var(--accent-blue);
   border: 1px solid var(--border);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .day-card:hover {
